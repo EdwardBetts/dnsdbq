@@ -1167,7 +1167,7 @@ batch_options(const char *optstr, qparam_t options, qparam_ct dflt) {
 		if (msg == NULL && optc != 0)
 			msg = "superfluous non-arguments in $OPTIONS";
 	}
-	/* if an error occured, reset options to saved values. */
+	/* if an error occurred, reset options to saved values. */
 	if (msg != NULL) {
 		*options = save;
 	} else {

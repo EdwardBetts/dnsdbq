@@ -81,7 +81,7 @@ $(TOOL_OBJ): Makefile
 depend:
 	mkdep $(CURLINCL) $(JANSINCL) $(CDEFS) $(TOOL_SRC)
 
-# these were made by mkdep on BSD but are now staticly edited
+# these were made by mkdep on BSD but are now statically edited
 deduper.o: deduper.c deduper.h
 asinfo.o: asinfo.c \
   asinfo.h globals.h defs.h sort.h pdns.h netio.h
